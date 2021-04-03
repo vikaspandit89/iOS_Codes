@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FE8A312E26185C4B009630E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A312D26185C4B009630E0 /* AppDelegate.swift */; };
-		FE8A313026185C4B009630E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A312F26185C4B009630E0 /* SceneDelegate.swift */; };
 		FE8A313226185C4B009630E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A313126185C4B009630E0 /* ViewController.swift */; };
 		FE8A313526185C4B009630E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8A313326185C4B009630E0 /* Main.storyboard */; };
 		FE8A313726185C62009630E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8A313626185C62009630E0 /* Assets.xcassets */; };
 		FE8A313A26185C62009630E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8A313826185C62009630E0 /* LaunchScreen.storyboard */; };
 		FE8A314526185C62009630E0 /* TheameManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A314426185C62009630E0 /* TheameManagerTests.swift */; };
 		FE8A315026185C62009630E0 /* TheameManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A314F26185C62009630E0 /* TheameManagerUITests.swift */; };
+		FE8A315E26185D2A009630E0 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A315D26185D2A009630E0 /* ThemeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		FE8A312A26185C4B009630E0 /* TheameManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheameManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8A312D26185C4B009630E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE8A312F26185C4B009630E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE8A313126185C4B009630E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE8A313426185C4B009630E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE8A313626185C62009630E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		FE8A314B26185C62009630E0 /* TheameManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheameManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8A314F26185C62009630E0 /* TheameManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheameManagerUITests.swift; sourceTree = "<group>"; };
 		FE8A315126185C62009630E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8A315D26185D2A009630E0 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				FE8A312D26185C4B009630E0 /* AppDelegate.swift */,
-				FE8A312F26185C4B009630E0 /* SceneDelegate.swift */,
 				FE8A313126185C4B009630E0 /* ViewController.swift */,
+				FE8A315D26185D2A009630E0 /* ThemeManager.swift */,
 				FE8A313326185C4B009630E0 /* Main.storyboard */,
 				FE8A313626185C62009630E0 /* Assets.xcassets */,
 				FE8A313826185C62009630E0 /* LaunchScreen.storyboard */,
@@ -261,7 +261,7 @@
 			files = (
 				FE8A313226185C4B009630E0 /* ViewController.swift in Sources */,
 				FE8A312E26185C4B009630E0 /* AppDelegate.swift in Sources */,
-				FE8A313026185C4B009630E0 /* SceneDelegate.swift in Sources */,
+				FE8A315E26185D2A009630E0 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,13 +436,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TheameManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.TheameManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -453,13 +454,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TheameManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.TheameManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
